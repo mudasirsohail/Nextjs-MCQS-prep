@@ -1,0 +1,1009 @@
+[
+    {
+      "id": 1,
+      "question": "What is Next.js?",
+      "options": [
+        "A backend framework",
+        "A frontend framework",
+        "A full-stack React framework",
+        "A database management system"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is NOT a feature of Next.js?",
+      "options": [
+        "Server-side rendering",
+        "Static site generation",
+        "Built-in CSS support",
+        "Native mobile app development"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of the 'pages' directory in a Next.js project?",
+      "options": [
+        "To store static assets",
+        "To define API routes",
+        "To automatically create routes based on file names",
+        "To store configuration files"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "question": "What is the purpose of the 'getStaticProps' function in Next.js?",
+      "options": [
+        "To fetch data at runtime",
+        "To generate static props at build time",
+        "To handle server-side events",
+        "To define client-side routes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "Which Next.js API allows you to opt-in to Static Site Generation (SSG) for a page?",
+      "options": ["getServerSideProps", "getInitialProps", "getStaticPaths", "getStaticProps"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 6,
+      "question": "What is the purpose of the '_app.js' file in Next.js?",
+      "options": ["To define global styles", "To initialize pages", "To set up the root component", "All of the above"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 7,
+      "question": "Which method is used for server-side rendering in Next.js?",
+      "options": ["getServerSideProps", "getStaticProps", "getInitialProps", "getRenderProps"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is the purpose of the 'next.config.js' file?",
+      "options": [
+        "To define build-time configuration",
+        "To set up routing",
+        "To define API routes",
+        "To configure the database"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is true about Next.js API routes?",
+      "options": [
+        "They only support GET requests",
+        "They are defined in the 'pages/api' directory",
+        "They require external server setup",
+        "They can't access the database"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "What is the purpose of the 'Link' component in Next.js?",
+      "options": [
+        "To create external links",
+        "To handle client-side navigation",
+        "To style anchor tags",
+        "To define server-side routes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "question": "Which feature in Next.js allows you to split your application into smaller chunks?",
+      "options": ["Code Splitting", "Server-Side Rendering", "Static Site Generation", "API Routes"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is the purpose of the 'getStaticPaths' function in Next.js?",
+      "options": [
+        "To define API routes",
+        "To specify which paths to pre-render for dynamic routes",
+        "To set up server-side rendering",
+        "To configure the build process"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is NOT a valid Next.js data fetching method?",
+      "options": ["getServerSideProps", "getStaticProps", "getInitialProps", "getFetchProps"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 14,
+      "question": "What is the purpose of the 'Image' component in Next.js?",
+      "options": [
+        "To add decorative images",
+        "To optimize and lazy-load images",
+        "To create image galleries",
+        "To edit images on the server"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is true about the 'pages' directory in Next.js?",
+      "options": [
+        "It's optional and can be renamed",
+        "It's where you define API routes",
+        "It's used for automatic routing based on the file structure",
+        "It's only for static pages"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of the '_document.js' file in Next.js?",
+      "options": [
+        "To customize the HTML document structure",
+        "To define global styles",
+        "To set up state management",
+        "To configure the build process"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "Which of the following is NOT a benefit of using Next.js?",
+      "options": [
+        "Automatic code splitting",
+        "Server-side rendering",
+        "Built-in CSS support",
+        "Native mobile app development"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 18,
+      "question": "What is the purpose of the 'fallback' property in getStaticPaths?",
+      "options": [
+        "To handle 404 errors",
+        "To enable incremental static regeneration",
+        "To redirect to a custom error page",
+        "To define a default layout"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is true about Next.js dynamic imports?",
+      "options": [
+        "They are only for CSS files",
+        "They allow you to load JavaScript modules dynamically",
+        "They are used for server-side rendering",
+        "They are deprecated in newer versions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "question": "What is the purpose of the 'rewrites' option in next.config.js?",
+      "options": [
+        "To rename files during build",
+        "To set up redirects",
+        "To modify the URL structure without changing the destination",
+        "To configure webpack"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 21,
+      "question": "What is the primary purpose of the 'getInitialProps' method in Next.js?",
+      "options": [
+        "To fetch data on the client-side",
+        "To initialize the Redux store",
+        "To fetch initial data for a page on both client and server",
+        "To set up routing"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 22,
+      "question": "Which Next.js feature allows you to create API endpoints?",
+      "options": ["API Routes", "Server Actions", "getServerSideProps", "Dynamic Imports"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is the purpose of the 'next/head' component in Next.js?",
+      "options": [
+        "To add elements to the <head> of the page",
+        "To create a header component",
+        "To handle routing",
+        "To manage state"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "Which of the following is true about CSS Modules in Next.js?",
+      "options": [
+        "They are not supported",
+        "They provide global styling",
+        "They allow for component-level styling with automatic class name uniqueness",
+        "They require additional configuration"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 25,
+      "question": "What is the purpose of the 'next export' command?",
+      "options": [
+        "To export the project as a mobile app",
+        "To generate a static HTML version of the app",
+        "To create a production build",
+        "To export the database"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "question": "Which of the following is NOT a valid page extension in Next.js?",
+      "options": [".js", ".jsx", ".ts", ".html"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 27,
+      "question": "What is the purpose of the 'next/router' in Next.js?",
+      "options": [
+        "To handle API requests",
+        "To manage client-side transitions between routes",
+        "To define server-side routes",
+        "To create a sitemap"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 28,
+      "question": "Which of the following is true about the 'public' directory in Next.js?",
+      "options": [
+        "It's used for storing API routes",
+        "It's for static assets that can be served directly",
+        "It's where component files are stored",
+        "It's used for server-side code"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 29,
+      "question": "What is the purpose of the 'next/script' component?",
+      "options": [
+        "To write inline JavaScript",
+        "To optimize loading of third-party scripts",
+        "To create server-side scripts",
+        "To define build scripts"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 30,
+      "question": "Which of the following is NOT a valid strategy for the 'next/image' component's loading prop?",
+      "options": ["lazy", "eager", "progressive", "blur"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 31,
+      "question": "What is the purpose of the '_error.js' file in Next.js?",
+      "options": [
+        "To log errors",
+        "To customize the 404 page",
+        "To handle and display runtime errors",
+        "To define error boundaries"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 32,
+      "question": "Which of the following is true about the 'next/link' component?",
+      "options": [
+        "It's used for external links only",
+        "It prefetches the linked page in the background",
+        "It requires manual JavaScript for client-side navigation",
+        "It's only for internal API routes"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 33,
+      "question": "What is the purpose of the 'next.config.js' file's 'redirects' function?",
+      "options": [
+        "To handle 404 errors",
+        "To set up path aliases",
+        "To redirect requests to different URLs",
+        "To define custom server routes"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 34,
+      "question": "What is the purpose of the 'next/dynamic' function?",
+      "options": [
+        "To create dynamic routes",
+        "To dynamically import components",
+        "To generate dynamic CSS",
+        "To handle dynamic API requests"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 35,
+      "question": "Which of the following is true about the 'getStaticProps' function?",
+      "options": [
+        "It runs on every request",
+        "It only runs at build time",
+        "It's used for client-side data fetching",
+        "It's required for all pages"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 36,
+      "question": "What is the purpose of the 'next/amp' component?",
+      "options": [
+        "To create audio players",
+        "To optimize pages for AMP (Accelerated Mobile Pages)",
+        "To handle animations",
+        "To manage application state"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 37,
+      "question": "Which of the following is NOT a valid catch-all route in Next.js?",
+      "options": [
+        "pages/post/[...slug].js",
+        "pages/[...param].js",
+        "pages/[[...optional]].js",
+        "pages/[...all]/index.js"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 38,
+      "question": "What is the purpose of the 'next/babel' preset?",
+      "options": [
+        "To configure Babel for Next.js",
+        "To enable TypeScript support",
+        "To optimize images",
+        "To handle server-side rendering"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "Which of the following is true about the 'next build' command?",
+      "options": [
+        "It starts a development server",
+        "It generates a production-ready build",
+        "It exports a static site",
+        "It runs tests"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 40,
+      "question": "What is the purpose of the 'next/jest' preset?",
+      "options": [
+        "To configure Jest for Next.js projects",
+        "To add Jest as a dependency",
+        "To run Jest tests",
+        "To create mock API responses"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "Which of the following is NOT a valid strategy for handling forms in Next.js?",
+      "options": [
+        "Using the 'handleSubmit' prop",
+        "Using controlled components",
+        "Using uncontrolled components",
+        "Using API routes"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is the purpose of the 'next/font' module?",
+      "options": [
+        "To add custom fonts to the project",
+        "To optimize font loading and reduce layout shift",
+        "To create text animations",
+        "To handle text translations"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 43,
+      "question": "Which of the following is true about environment variables in Next.js?",
+      "options": [
+        "They are always exposed to the browser",
+        "They can only be used on the server",
+        "They need to be prefixed with 'NEXT_PUBLIC_' to be exposed to the browser",
+        "They are defined in the 'next.config.js' file"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 44,
+      "question": "What is the purpose of the 'next/server' module?",
+      "options": [
+        "To create a custom server",
+        "To handle server-side rendering",
+        "To work with middleware and edge functions",
+        "To manage database connections"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 45,
+      "question": "Which of the following is NOT a valid way to add global CSS in Next.js?",
+      "options": [
+        "Importing CSS files in '_app.js'",
+        "Using CSS Modules",
+        "Using styled-jsx",
+        "Importing CSS files in individual components"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 46,
+      "question": "What is the purpose of the 'next.config.js' file's 'webpack' function?",
+      "options": [
+        "To replace webpack with a different bundler",
+        "To customize the webpack configuration",
+        "To disable webpack",
+        "To optimize webpack for production"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 47,
+      "question": "Which of the following is true about the 'pages/api' directory in Next.js?",
+      "options": [
+        "It's used for storing component files",
+        "It's where you define API routes",
+        "It's for server-side rendering functions",
+        "It's used for static file serving"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 48,
+      "question": "What is the purpose of the 'next/image' component's 'priority' prop?",
+      "options": [
+        "To set the order of image loading",
+        "To mark an image as a priority for preload",
+        "To increase image quality",
+        "To prioritize image caching"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 49,
+      "question": "Which of the following is NOT a benefit of using Server Components in Next.js 13?",
+      "options": [
+        "Reduced JavaScript bundle size",
+        "Improved initial page load",
+        "Access to backend resources",
+        "Enhanced client-side interactivity"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 50,
+      "question": "What is the purpose of the 'use client' directive in Next.js 13?",
+      "options": [
+        "To mark a component as a Client Component",
+        "To enable client-side routing",
+        "To opt-out of server-side rendering",
+        "To use client-side data fetching"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 51,
+      "question": "Which of the following is true about the 'app' directory in Next.js 13?",
+      "options": [
+        "It replaces the 'pages' directory entirely",
+        "It coexists with the 'pages' directory",
+        "It's only for API routes",
+        "It's used for storing assets"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 52,
+      "question": "What is the purpose of the 'loading.js' file in the Next.js 13 app directory?",
+      "options": [
+        "To define global loading states",
+        "To create a custom loading component for route segments",
+        "To handle data loading",
+        "To configure loading priorities"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 53,
+      "question": "Which of the following is NOT a valid special file in the Next.js 13 app directory?",
+      "options": ["layout.js", "page.js", "loading.js", "index.js"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 54,
+      "question": "What is the purpose of the 'not-found.js' file in Next.js 13?",
+      "options": [
+        "To handle 404 errors globally",
+        "To create a custom 404 page for a route segment",
+        "To redirect to a 404 page",
+        "To log not found errors"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 55,
+      "question": "Which of the following is true about data fetching in Next.js 13?",
+      "options": [
+        "It only supports client-side fetching",
+        "It introduces new functions like fetch and cache",
+        "It removes support for getServerSideProps",
+        "It requires external libraries for efficient caching"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 56,
+      "question": "What is the purpose of the 'next/cache' module in Next.js 13?",
+      "options": [
+        "To manage browser caching",
+        "To implement server-side caching",
+        "To cache API responses",
+        "To optimize image caching"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 57,
+      "question": "Which of the following is NOT a valid route group in Next.js 13?",
+      "options": ["(marketing)", "(shop)", "[lang]", "{admin}"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 58,
+      "question": "What is the purpose of the 'next/headers' module in Next.js 13?",
+      "options": [
+        "To set response headers",
+        "To read request headers in Server Components",
+        "To manage header-based authentication",
+        "To configure CORS headers"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 59,
+      "question": "Which of the following is true about the 'error.js' file in Next.js 13?",
+      "options": [
+        "It handles all errors globally",
+        "It creates error boundaries for route segments",
+        "It's used for logging errors",
+        "It replaces try-catch blocks"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 60,
+      "question": "What is the purpose of the 'next/navigation' module in Next.js 13?",
+      "options": [
+        "To handle server-side navigation",
+        "To manage browser history",
+        "To provide hooks and components for client-side navigation",
+        "To configure navigation menus"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 61,
+      "question": "Which of the following is NOT a valid data fetching pattern in Next.js 13?",
+      "options": ["Server Components", "Route Handlers", "Client Components", "Static Site Generation"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 62,
+      "question": "What is the purpose of the 'generateStaticParams' function in Next.js 13?",
+      "options": [
+        "To generate dynamic routes",
+        "To create static pages at build time",
+        "To handle URL parameters",
+        "To configure static exports"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 63,
+      "question": "Which of the following is true about the 'next/link' component in Next.js 13?",
+      "options": [
+        "It no longer requires the 'passHref' prop",
+        "It only works with Server Components",
+        "It requires manual prefetching configuration",
+        "It's been replaced by the 'next/navigation' module"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 64,
+      "question": "What is the purpose of the 'searchParams' prop in page components in Next.js 13?",
+      "options": [
+        "To handle form submissions",
+        "To access URL search parameters",
+        "To configure search functionality",
+        "To manage state in search components"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 65,
+      "question": "Which of the following is NOT a valid metadata configuration in Next.js 13?",
+      "options": [
+        "Static metadata object",
+        "Dynamic metadata function",
+        "File-based metadata",
+        "Global metadata configuration"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 66,
+      "question": "What is the purpose of the 'next.config.js' file's 'experimental' object in Next.js 13?",
+      "options": [
+        "To enable beta features",
+        "To configure A/B testing",
+        "To set up development-only options",
+        "To manage experimental dependencies"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 67,
+      "question": "Which of the following is true about Server Actions in Next.js 13?",
+      "options": [
+        "They are only available in Client Components",
+        "They allow form submissions without JavaScript",
+        "They require external libraries",
+        "They are used for client-side state management"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 68,
+      "question": "What is the purpose of the 'next/font/google' module in Next.js 13?",
+      "options": [
+        "To add custom Google Fonts",
+        "To optimize Google Font loading",
+        "To create font animations",
+        "To manage font licensing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 69,
+      "question": "Which of the following is NOT a valid option for the 'runtime' configuration in Next.js 13 API routes?",
+      "options": ["nodejs", "edge", "experimental-edge", "serverless"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 70,
+      "question": "What is the purpose of the 'next/script' component's 'strategy' prop in Next.js 13?",
+      "options": [
+        "To set the loading priority of scripts",
+        "To configure script execution order",
+        "To manage script dependencies",
+        "To handle script error strategies"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 71,
+      "question": "Which of the following is true about the 'next build' command in Next.js 13?",
+      "options": [
+        "It only builds Server Components",
+        "It generates both server and client bundles",
+        "It's no longer necessary with the new app directory",
+        "It only works with the pages directory"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 72,
+      "question": "What is the purpose of the 'next/image' component's 'sizes' prop in Next.js 13?",
+      "options": [
+        "To set fixed image sizes",
+        "To configure responsive image sizes",
+        "To limit the maximum image size",
+        "To define image size variants"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 73,
+      "question": "Which of the following is NOT a valid caching behavior in Next.js 13?",
+      "options": ["force-cache", "no-store", "only-if-cached", "revalidate"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 74,
+      "question": "What is the purpose of the 'next/dynamic' function's 'ssr' option in Next.js 13?",
+      "options": [
+        "To enable server-side rendering for dynamic imports",
+        "To disable server-side rendering for dynamic imports",
+        "To configure SSR-only components",
+        "To manage SSR caching"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 75,
+      "question": "Which of the following is true about the 'params' prop in page components in Next.js 13?",
+      "options": [
+        "It contains query parameters",
+        "It holds dynamic route parameters",
+        "It's used for form data",
+        "It manages route-based state"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 76,
+      "question": "What is the purpose of the 'next.config.js' file's 'output' option in Next.js 13?",
+      "options": [
+        "To configure build output directory",
+        "To enable static exports",
+        "To manage console output",
+        "To customize error output"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 77,
+      "question": "Which of the following is true about the 'next/font/local' module in Next.js 13?",
+      "options": [
+        "It's used for loading Google Fonts",
+        "It optimizes loading of self-hosted fonts",
+        "It's for creating custom font faces",
+        "It manages font licensing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 78,
+      "question": "What is the purpose of the 'next.config.js' file's 'transpilePackages' option in Next.js 13?",
+      "options": [
+        "To configure Babel transpilation",
+        "To enable TypeScript support",
+        "To transpile specific npm packages",
+        "To manage code minification"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 79,
+      "question": "Which of the following is NOT a valid option for the 'next/image' component's 'loading' prop in Next.js 13?",
+      "options": ["lazy", "eager", "progressive", "auto"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 80,
+      "question": "What is the purpose of the 'next.config.js' file's 'generateBuildId' function in Next.js 13?",
+      "options": [
+        "To create unique build identifiers",
+        "To generate build timestamps",
+        "To configure build versioning",
+        "To manage build caching"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 81,
+      "question": "Which of the following is true about the 'next/headers' module in Next.js 13?",
+      "options": [
+        "It's only available in Client Components",
+        "It allows reading headers in Server Components",
+        "It's used for setting response headers",
+        "It manages header-based authentication"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 82,
+      "question": "What is the purpose of the 'next.config.js' file's 'pageExtensions' option in Next.js 13?",
+      "options": [
+        "To configure allowed file extensions for pages",
+        "To manage page load extensions",
+        "To set up page-specific plugins",
+        "To handle page redirects"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 83,
+      "question": "Which of the following is NOT a valid option for the 'next/image' component's 'placeholder' prop in Next.js 13?",
+      "options": ["blur", "empty", "data:image/...", "loading"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 84,
+      "question": "What is the purpose of the 'use server' directive in Next.js 13?",
+      "options": [
+        "To mark a component as a Server Component",
+        "To enable server-side rendering",
+        "To define server-only code",
+        "To configure server middleware"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 85,
+      "question": "Which of the following is true about the 'next.config.js' file's 'reactStrictMode' option in Next.js 13?",
+      "options": [
+        "It's enabled by default",
+        "It disables React's strict mode",
+        "It only affects production builds",
+        "It's required for Server Components"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 86,
+      "question": "What is the purpose of the 'next/server' CreateNextRouteHandler function in Next.js 13?",
+      "options": [
+        "To create custom server-side routes",
+        "To handle API routes",
+        "To manage server-side redirects",
+        "To configure server middleware"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 87,
+      "question": "Which of the following is NOT a valid option for the 'next.config.js' file's 'images' configuration in Next.js 13?",
+      "options": ["domains", "deviceSizes", "loader", "quality"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 88,
+      "question": "What is the purpose of the 'next.config.js' file's 'eslint' option in Next.js 13?",
+      "options": [
+        "To disable ESLint",
+        "To configure custom ESLint rules",
+        "To run ESLint as part of the build process",
+        "To integrate ESLint with the development server"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 89,
+      "question": "Which of the following is true about the 'next/navigation' useRouter hook in Next.js 13?",
+      "options": [
+        "It's only available in Server Components",
+        "It replaces the 'next/router' module completely",
+        "It provides additional navigation methods like 'refresh'",
+        "It's used for configuring routing rules"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 90,
+      "question": "What is the purpose of the 'next.config.js' file's 'compiler' option in Next.js 13?",
+      "options": [
+        "To switch between different JavaScript compilers",
+        "To enable/disable specific compiler optimizations",
+        "To configure TypeScript compilation",
+        "To manage build-time code transformations"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 91,
+      "question": "Which of the following is NOT a valid option for the 'next/image' component's 'layout' prop in Next.js 13?",
+      "options": ["fixed", "intrinsic", "responsive", "adaptive"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 92,
+      "question": "What is the purpose of the 'next.config.js' file's 'poweredByHeader' option in Next.js 13?",
+      "options": [
+        "To add a custom powered-by header",
+        "To remove the X-Powered-By header",
+        "To configure header-based authentication",
+        "To manage server response headers"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 93,
+      "question": "Which of the following is true about the 'next/jest' preset in Next.js 13?",
+      "options": [
+        "It's required for running tests",
+        "It provides custom matchers for Next.js components",
+        "It configures Jest to work with Next.js",
+        "It's only for API route testing"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 94,
+      "question": "What is the purpose of the 'next.config.js' file's 'assetPrefix' option in Next.js 13?",
+      "options": [
+        "To configure CDN URLs for static assets",
+        "To add prefixes to asset filenames",
+        "To manage asset optimization",
+        "To set up asset versioning"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 95,
+      "question": "Which of the following is NOT a valid option for the 'next/dynamic' function's 'loading' prop in Next.js 13?",
+      "options": ["A React component", "null", "false", "A promise"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 96,
+      "question": "What is the purpose of the 'next.config.js' file's 'generateEtags' option in Next.js 13?",
+      "options": [
+        "To enable/disable ETag generation",
+        "To configure custom ETag algorithms",
+        "To manage ETag caching",
+        "To set up ETag-based routing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 97,
+      "question": "Which of the following is true about the 'next/server' NextResponse class in Next.js 13?",
+      "options": [
+        "It's only used in API routes",
+        "It provides methods for manipulating the response in middleware",
+        "It's for handling server-side errors",
+        "It manages server-side state"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 98,
+      "question": "What is the purpose of the 'next.config.js' file's 'typescript' option in Next.js 13?",
+      "options": [
+        "To enable/disable TypeScript support",
+        "To configure the TypeScript compiler",
+        "To ignore TypeScript errors during builds",
+        "To set up custom TypeScript plugins"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 99,
+      "question": "Which of the following is NOT a valid option for the 'next/image' component's 'objectFit' prop in Next.js 13?",
+      "options": ["fill", "contain", "cover", "stretch"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 100,
+      "question": "What is the purpose of the 'next.config.js' file's 'trailingSlash' option in Next.js 13?",
+      "options": [
+        "To add/remove trailing slashes from URLs",
+        "To configure URL normalization",
+        "To manage slash-based routing",
+        "To handle trailing slash redirects"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+  
+  
